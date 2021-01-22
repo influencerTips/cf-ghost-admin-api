@@ -17,9 +17,7 @@ GHOST_CONTENT_API_KEY: Value encrypted
 
 ## Documentation
 
-This application was initially set up to allow API access to a Ghost blog subscribed member's details using their `UUID`.
-
-At this stage only a get request to the Admin API member with filter uuid is allowed.
+The use case scenario for creating this was to allow a subscribed user access to their labels. Therefore only admin API get request access to a Ghost blog subscribed member's details using their `UUID` is setup.
 
 ### Usage
 
